@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="gold">#b89766</color>
+    <color name="select">#98aacc</color>
+    <color name="black">#000000</color>
+    <color name="lightgrey">#D3D3D3</color>
+    
+    <color name="gray_888">#ff888888</color>
+    <color name="grey">#ff58616d</color>
+    <color name="global_focus_blue">#ff3296fa</color>
+    <color name="global_focus_black">#ffb6da53</color>
+    <color name="stroke_for_white_bg">#e2e4e8</color>
+    
+    <color name="cleary">#00000000</color>
+</resources>

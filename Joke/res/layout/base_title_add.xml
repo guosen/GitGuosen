@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/TitleBarHeight"
+    android:background="?attr/title_bg" >
+
+    <Button
+        android:id="@+id/header_left"
+        style="@style/TitleButton.Back"
+        android:clickable="true"
+        android:onClick="onBack" />
+   
+    
+    <Button
+        android:id="@+id/header_right"
+        style="@style/TitleButton.Right"
+        android:text="@string/edit"/>
+
+    <ImageView
+        android:id="@+id/header_share"
+        style="@style/TitleButton.Share"
+        android:layout_toLeftOf="@+id/header_right"
+        android:layout_width="50.0dip"
+        android:onClick="onShare"
+        android:src="?attr/title_share" />
+
+    <TextView
+        android:id="@+id/header_title"
+        style="@style/FontPreference"
+        android:layout_width="fill_parent"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/header_right"
+        android:layout_toRightOf="@+id/header_left"
+        android:gravity="center"
+        android:textColor="?attr/title_text_color"
+        android:textSize="@dimen/XTitleTextSize" />
+
+</RelativeLayout>

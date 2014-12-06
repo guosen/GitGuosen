@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout 
+        android:id="@+id/jokeitem"
+        android:layout_height="250dp"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:background="@color/gold">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minHeight="200dp"
+        android:text="@string/joke"
+        android:textSize="20sp"
+        android:typeface="serif"
+        />
+    <ImageView 
+        android:id="@+id/likebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:src="@drawable/ic_card_like"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/LargeMarginRight"/>
+</RelativeLayout>
+</LinearLayout>

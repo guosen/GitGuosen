@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+    <include layout="@layout/base_title_send"/>
+    <LinearLayout 
+        android:id="@+id/jokeitem"
+        android:layout_height="@dimen/JokeBaseHeight"
+        android:layout_width="match_parent"
+        android:padding="@dimen/JokeBasePadding"
+        android:background="@drawable/l_17">
+    <EditText
+        android:id="@+id/jokecontent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minHeight="@dimen/JokeTextHeight"
+        android:textSize="20sp"
+        android:hint="@string/send_edit_hint"
+        android:background="@color/cleary"
+        android:textColor="@color/white"
+        android:typeface="serif"
+        />
+</LinearLayout>
+
+    
+       <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+</LinearLayout>

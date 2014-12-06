@@ -1,0 +1,83 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+      <style name="TitleButton">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textColor">?attr/title_text_color</item>
+        <item name="android:minWidth">75dp</item>
+    </style>
+    <style name="TitleButton.Back">
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:background">?attr/title_back_button</item>
+        <item name="android:text">?attr/title_back_text</item>
+    </style>
+     <style name="TitleButton.Right">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:background">?attr/title_right_button</item>
+        <item name="android:visibility">visible</item>
+    </style>
+     <!-- share style -->
+     <style name="TitleButton.RightNew">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:visibility">visible</item>
+    </style>
+     <!-- share style -->
+    <style name="TitleButton.Share">
+        <item name="android:background">?attr/title_right_button</item>
+        <item name="android:visibility">visible</item>
+    </style>
+    
+    
+    
+     <style name="PreferenceText">
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">@dimen/BasicTextSize</item>
+    </style>
+    <style name="FontPreference">
+        <item name="android:textAppearance">@style/PreferenceText</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+     
+     <style name="AppBaseTheme.LOMO"  parent="android:Theme">
+
+        <!-- 统一标题栏 -->
+        <item name="title_bg">@drawable/lomo_title_bg</item>
+        <item name="title_back_button">@drawable/lomo_btn_back</item>
+        <item name="title_back_text">@string/back</item>
+        <item name="title_right_button">@drawable/trans</item>
+        <item name="title_btn_note_book">@drawable/lomo_btn_note_book</item>
+        <item name="title_album">@drawable/lomo_btn_album</item>
+        <item name="title_share">@drawable/lomo_btn_share</item>
+        <item name="global_bg_r_b">@drawable/global_bg_bottom_round_black</item>
+        <item name="global_bg_r_t">@drawable/global_bg_top_round_black</item>
+        <item name="global_bg_r">@drawable/global_bg_round_black</item>
+        <item name="global_bg_n">@drawable/global_bg_normal_black</item>
+        <item name="at_single_round">@drawable/single_bg_round_black</item>
+        <item name="title_text_color">@color/lomo_menu_text_color</item>
+
+    </style>
+</resources>

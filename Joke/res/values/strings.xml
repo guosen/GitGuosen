@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Joke</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="edit">编辑</string>
+    <string name="back">返回</string>
+    <string name="joke">课上老师问小明，面对江山和美人，你选……？
+小明：江山。
+老师：为什么？
+小明：有了江山，就一定会有美人。但是有了美人，美人会跟有江山的人跑了。。。
+小伙子，你很有思想。。。</string>
+<string name="send_edit_hint">开始分享一条笑话</string>
+<string name="send_edit_hinwt">开始分享一条笑话</string>
+</resources>

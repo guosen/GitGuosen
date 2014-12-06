@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="TitleBarHeight">50.0dp</dimen>
+    <dimen name="XTitleTextSize">19.0dp</dimen>
+    <dimen name="BasicTextSize">15.0dip</dimen>
+    
+    <dimen name="JokeBaseHeight">300.0dip</dimen>
+    <dimen name="JokeBasePadding">10.0dip</dimen>
+    <dimen name="JokeTextHeight">200.0dip</dimen>
+    
+    <dimen name="LargeMarginRight">90.0dip</dimen>
+</resources>
